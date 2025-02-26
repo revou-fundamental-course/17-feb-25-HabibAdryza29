@@ -1,1 +1,101 @@
 /* Ini CSS External */
+
+body {
+    font-family: cursive;
+}
+
+.fleks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+}
+
+nav > a {
+    border: 1px solid;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.no-border {
+    border-radius: 0%;
+}
+.no-right {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 4px;
+}
+.no-left {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 0px;
+}
+
+.posisi {
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    gap: 24px;
+}
+
+.main-container {
+    border: 1px solid;
+    height: 400px;
+    flex: 1;
+    align-content: center; 
+    text-align: center;
+}
+}
+
+.holiday {
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 195, 255);
+}
+
+#our-packages>header {
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    background-color: aqua;
+}
+
+.isi-op {
+    border: 1px solid;
+    height: 300px;
+    align-content: center; 
+    text-align: center;
+}
+
+#call-us>header {
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    background-color: coral;
+}
+
+.isi-cu {
+    border: 1px solid;
+    height: 300px;
+    align-content: center; 
+    text-align: center;
+}
+
+footer  {
+    text-align: center;
+}
