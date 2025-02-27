@@ -20,17 +20,34 @@
     
     <main>
         <header id="home">
-            <h1 class="posisi">Hello <span id="name"></span> welcome to my travel</h1>
-            <h4 class="holiday">Enjoy your holiday!!!</h4>
+            <h1 class="posisi">Hello <span id="namebuka"></span> welcome to my travel</h1>
+            <h4 class="holiday">Enjoy your day with nice holiday!!!</h4>
         </header>
-
-    <section class="main-content">
+ 
+    <section class="main-content" id="form-cu">
         <aside class="main-container">
-            <p>Banner autoslide</p>
+           <div class="main-banner banner-img1"></div>
+           <div class="main-banner banner-img2"></div>
+           <div class="main-banner banner-img3"></div>
         </aside>
 
-        <aside class="main-container">
-            <p>Form contact us</p>
+        <aside class="cu-container">
+            <h2>Contact us</h2>
+            <form action="contact_process.php" method="post">
+                <label for="name">Namamu:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Pilih tempat liburan:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+        
+               
+               <divbutton>
+                 <button type="button" onclick="validateForm()">Konfirmasi</button>
+               </divbutton>
+            </form>
         </aside>
      </section>
 
@@ -41,7 +58,14 @@
         </header>  
 
         <article class="isi-op">
-            <p>Liburan ke Bali</p>
+            <h2>Bali</h2>
+            <h2>Bandung</h2>
+            <h2>Yogyakarta</h2>
+        </article>
+        <article class="deskripsi">
+            <p>Warnai liburanmu dengan berwisata ke pulau Dewata dan pantai Kuta!!!</p>
+            <p>Mau keluar kota yang ga terlalu jauh dari Jakarta? ke Bandung ajahhh</p>
+            <p>Lagi pengen makan gudeg dengan rasa terbaik? di Jogja solusinya</p>
         </article>
      </section>
 
@@ -52,7 +76,13 @@
         </header>  
 
         <article class="isi-cu">
-            <p>Hubungi</p>
+            <p>Saat liburan pastinya bosen banget gak sihh kalo ga liburan atau jalan jalan kemana mana? maka dari
+                itu aku mau ngasih penawaran serta pengalaman liburan, jalan jalan, dan wisata terbaik dan seru
+                pastinya. Tenang aja harganya gak bikin kantong bolong kok, paling cuma bikin kantong jebol HEHEHE aku
+                becanda yaa, okedeh singkat aja kalau kalian tertarik dan ingin tau info lebih lanjut bisa hubungi
+                dengan cara isi form <a href="#home">contact us</a> diatas dan juga jangan lupa follow instagram:ehrija9
+                ditunggu yaa.
+            </p>
         </article>
      </section>
     </main>
